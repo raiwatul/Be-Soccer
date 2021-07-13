@@ -14,12 +14,13 @@ body{
     background-color: rgb(12, 12, 168);
   align-items: center;
   justify-content: space-evenly;
-   padding: 50px;
+   padding: 80px;
  
 }
 h1{
     color: white;
     font-size: 50px;
+    margin: 0;
 }
 .title{
     
@@ -33,12 +34,13 @@ h1{
     
 }
 .banner-image img{
-    width: 450px;
-    height: 350;
+    width: 550px;
+    height: 438;
    
 
 }
 .button{
+    margin-top: 30px;
     text-decoration: none;
     padding: 10px 20px;
     color: wheat;
@@ -49,7 +51,29 @@ h1{
 .button:hover{
     background-color: darkorchid;
 }
-.banner-image img:hover{
+.first-section:hover .banner-image img{
     transform: rotate(45deg);
     transition: 1s;
+}
+
+/* second-section */
+
+/* third-section */
+.third-section{
+    margin-top: 200px;
+    display: flex;
+    
+}
+.match img{
+    width: 567px;
+height: 427px;
+}
+.info{
+    
+    padding: 40px;
+    margin-top: 50px;
+}
+h3{
+    font-size: 60px;
+    margin: 0;
 }
