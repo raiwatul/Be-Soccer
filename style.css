@@ -77,3 +77,19 @@ h3{
     font-size: 60px;
     margin: 0;
 }
+
+/* fourth-section */
+.owner{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+margin-bottom: 63px;
+margin-top: 170px;
+}
+
+.logo-image img{
+    width: 483.87px;
+height: 110px;
+}
