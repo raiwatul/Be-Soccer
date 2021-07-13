@@ -1,3 +1,55 @@
+/* font-style */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* first-section */
+
+.first-section{
+    display:flex;
+
+    background-color: rgb(12, 12, 168);
+  align-items: center;
+  justify-content: space-evenly;
+   padding: 50px;
+ 
+}
 h1{
-    color: aqua;
+    color: white;
+    font-size: 50px;
+}
+.title{
+    
+    margin-left: 156px;
+    
+   
+}
+.banner-immage{
+    margin-left: 736;
+    margin-top: 300px;
+    
+}
+.banner-image img{
+    width: 450px;
+    height: 350;
+   
+
+}
+.button{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: wheat;
+    border-radius: 5px;
+    background-color: purple;
+    font-weight: 500px;
+}
+.button:hover{
+    background-color: darkorchid;
+}
+.banner-image img:hover{
+    transform: rotate(45deg);
+    transition: 1s;
 }
