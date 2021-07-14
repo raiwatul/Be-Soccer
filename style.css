@@ -14,7 +14,7 @@ body{
     background-color: rgb(12, 12, 168);
   align-items: center;
   justify-content: space-evenly;
-   padding: 80px;
+   
  
 }
 h1{
@@ -24,18 +24,22 @@ h1{
 }
 .title{
     
-    margin-left: 156px;
-    
+    padding-left: 156px;
+   
+    padding-top: 121px;
+    padding-right: 95px;
+    padding-bottom: 204px;
    
 }
-.banner-immage{
-    margin-left: 736;
-    margin-top: 300px;
-    
-}
+
 .banner-image img{
     width: 550px;
     height: 438;
+    padding-top: 49px;
+    padding-left: 147px;
+    padding-top: 49px;
+    padding-bottom: 104px;
+    
    
 
 }
@@ -92,21 +96,24 @@ h1{
 
 /* third-section */
 .third-section{
-    margin-top: 200px;
+    margin-top: 224px;
     display: flex;
     
 }
 .match img{
     width: 567px;
 height: 427px;
+padding-left: 66px;
+padding-right: 156px;
+
 }
 .info{
     
-    padding: 40px;
-    margin-top: 50px;
+    padding-left: 182px;
+    padding-top: 44px;
 }
 h3{
-    font-size: 60px;
+    font-size: 30px;
     margin: 0;
 }
 
@@ -114,9 +121,10 @@ h3{
 .owner{
     display: flex;
 flex-direction: column;
-justify-content: center;
-align-items: center;
+
 padding: 0px;
+padding-left: 475px;
+padding-right: 481px;
 margin-bottom: 63px;
 margin-top: 170px;
 }
@@ -124,4 +132,136 @@ margin-top: 170px;
 .logo-image img{
     width: 483.87px;
 height: 110px;
+}
+
+@media only screen and (max-width: 688px){
+
+    /* first-sec */
+
+    .first-section{
+        display:grid;
+        grid-auto-columns: repeat(1,1fr);
+        background-color: rgb(12, 12, 168); 
+    }
+    h1{
+        color: white;
+        
+        margin: 0;
+    }
+    .title{
+        
+        padding-left: 16px;
+       
+        padding-top: 46px;
+        padding-right: 65px;
+        padding-bottom: 124px;
+       
+    }
+    
+    .banner-image img{
+        width: 329px;
+height: 259.17px;
+        padding-top: 125px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 61px;
+        
+       
+    
+    }
+    .button{
+        margin-top: 30px;
+        text-decoration: none;
+        padding: 10px 20px;
+        color: wheat;
+        border-radius: 5px;
+        background-color: purple;
+        font-weight: 500px;
+    }
+    .button:hover{
+        background-color: darkorchid;
+    }
+    .first-section:hover .banner-image img{
+        transform: rotate(45deg);
+        transition: 1s;
+    }
+    
+    /* second-sec */
+    .players{
+        padding-top: 47px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 20px;
+        grid-column-gap: 30px;
+       margin-left: 15px;
+       margin-right:15px;;
+    }
+    
+     .player{
+        width:330px;
+        Height:474px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 40px rgba(195, 199, 199, 0.507);
+        border-radius: 20px;
+        padding-bottom: 17px;
+    } 
+    .player-image img{
+        width: 300px;
+        height: 256px;
+        border-radius: 10px;
+    }
+    .player-info{
+        padding-right: 15px;
+        padding-left: 15px;
+        
+    }
+
+    /* 3rd-sec */
+
+    .third-section{
+       
+
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .match img{
+        width: 328px;
+height: 248px;
+padding-top: 29px;
+padding-left: 15px;
+padding-right: 15px;
+
+    
+    }
+    .info{
+        padding-top: 60px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+    h3{
+        font-size: 30px;
+        margin: 0;
+    }
+
+    /* 4th-sec */
+
+    .owner{
+        display: flex;
+    flex-direction: column;
+    padding-left: 18px;
+    padding-right: 71px;
+    padding-bottom: 266px;
+    }
+    
+    .logo-image img{
+        width: 125.8px;
+        height: 29.98px;
+        left: 163.2px;
+        top: 7384.57px;
+    }
+
 }
