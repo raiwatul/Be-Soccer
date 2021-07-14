@@ -56,8 +56,8 @@ h1{
     background-color: darkorchid;
 }
 .first-section:hover .banner-image img{
-    transform: rotate(45deg);
-    transition: 1s;
+    transform: rotate(360deg);
+    transition: 1.5s;
 }
 
 /* second-section */
