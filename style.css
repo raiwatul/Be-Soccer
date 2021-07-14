@@ -226,9 +226,10 @@ height: 259.17px;
 
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        margin-top: 60px;
     }
     .match img{
-        width: 328px;
+ width: 328px;
 height: 248px;
 padding-top: 29px;
 padding-left: 15px;
@@ -252,16 +253,16 @@ padding-right: 15px;
     .owner{
         display: flex;
     flex-direction: column;
-    padding-left: 18px;
-    padding-right: 71px;
-    padding-bottom: 266px;
+    
+    padding-left: 80px;
+    padding-right: 40px;
+    padding-bottom: 266px; 
     }
     
     .logo-image img{
         width: 125.8px;
         height: 29.98px;
-        left: 163.2px;
-        top: 7384.57px;
+        
     }
 
 }
