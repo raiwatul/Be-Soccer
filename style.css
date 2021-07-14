@@ -123,15 +123,26 @@ h3{
 flex-direction: column;
 
 padding: 0px;
-padding-left: 475px;
-padding-right: 481px;
-margin-bottom: 63px;
-margin-top: 170px;
-}
+align-content: center;
 
+padding-left: 475px;
+padding-right: 450px;
+margin-bottom: 63px;
+margin-top: 170px; 
+}
+ .social{
+    align-content: center;
+    
+}
+.footer{
+    align-content: center;
+   
+} 
 .logo-image img{
-    width: 483.87px;
-height: 110px;
+    width: 300.87px;
+height: 80px;
+align-content: center;
+
 }
 
 @media only screen and (max-width: 688px){
